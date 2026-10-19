@@ -4,3 +4,5 @@ payload:
   - DOMAIN-KEYWORD,test-ipv6
   - DOMAIN-KEYWORD,clubsim
   - DOMAIN-SUFFIX,angry.im
+  - DOMAIN-SUFFIX,hf-mirror.com   
+  - DOMAIN-SUFFIX,52share.fun  
