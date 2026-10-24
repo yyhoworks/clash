@@ -9,7 +9,7 @@ payload:
   # Audiences
   - DOMAIN-SUFFIX,audiences.me
   # HDDolby
-  - DOMAIN-SUFFIX,hddolby.com
+  - DOMAIN-SUFFIX,uhddolby.com
   # CHDBits
   - DOMAIN-SUFFIX,ptchdbits.co
   # TTG
