@@ -15,6 +15,9 @@ payload:
   - DOMAIN-SUFFIX,fbcdn.net
   - DOMAIN-SUFFIX,fbsbx.com
 
-  # === 4. Muse Code CLI 本地终端进程 (仅本机运行 Mihomo 内核时生效) ===
-  - PROCESS-NAME,muse
-  - PROCESS-NAME,muse.exe
+  # === 4. Muse Code CLI 本地终端进程 ===
+  # 已停用：PROCESS-NAME 只能匹配发起连接的进程，服务端网关（Match Router / YoPilot）
+  # 看不到客户端进程，故这两条在任何服务端部署下都不会命中。
+  # 仅当 Mihomo 跑在终端本机时才需要，取消下面两行注释即可恢复。
+  # - PROCESS-NAME,muse
+  # - PROCESS-NAME,muse.exe
