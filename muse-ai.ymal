@@ -1,0 +1,20 @@
+payload:
+  # === 1. Muse AI 核心与关联服务 ===
+  - DOMAIN-SUFFIX,muse.ai
+  - DOMAIN-SUFFIX,museai.com
+  - DOMAIN-SUFFIX,ecto1.ai
+
+  # === 2. Meta AI 底层接口、模型与沙盒生成内容 ===
+  - DOMAIN-SUFFIX,meta.ai
+  - DOMAIN-SUFFIX,llama.com
+  - DOMAIN-SUFFIX,metaaiusercontent.com
+
+  # === 3. Meta 账号鉴权与静态资源 CDN ===
+  - DOMAIN-SUFFIX,meta.com
+  - DOMAIN-SUFFIX,facebook.com
+  - DOMAIN-SUFFIX,fbcdn.net
+  - DOMAIN-SUFFIX,fbsbx.com
+
+  # === 4. Muse Code CLI 本地终端进程 (仅本机运行 Mihomo 内核时生效) ===
+  - PROCESS-NAME,muse
+  - PROCESS-NAME,muse.exe
