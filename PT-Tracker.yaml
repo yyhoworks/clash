@@ -30,6 +30,8 @@ payload:
   - DOMAIN,tracker.hhan.club
   # SunnyPT
   - DOMAIN,tracker.sunnypt.top
+  # HDChina
+  - DOMAIN,tracker.hdwing.org
   # These trackers share the website hostname, so direct takes priority.
   - DOMAIN,ourbits.club
   - DOMAIN,zmpt.cc
