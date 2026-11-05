@@ -54,3 +54,6 @@ payload:
   - DOMAIN-SUFFIX,pterclub.net
   # HHCLUB
   - DOMAIN-SUFFIX,hhanclub.net
+  # HDChina
+  - DOMAIN-SUFFIX,hdwing.org
+  
