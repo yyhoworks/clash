@@ -1,0 +1,48 @@
+payload:
+  #PT
+  #- DOMAIN,tracker.pterclub.com,DIRECT
+  #- DOMAIN,on.springsunday.net,DIRECT
+  #- DOMAIN,t.audiences.me,DIREC
+  #- DOMAIN,tracker.cinefiles.info,DIRECT
+  #- DOMAIN,tracker.m-team.io,DIRECT
+  #- DOMAIN,daydream.dmhy.best,DIRECT
+  #- DOMAIN,t.hddolby.com,DIRECT
+  #- DOMAIN,t.orcinusorca.org,DIRECT
+  #- DOMAIN,chdbits.xyz,DIRECT
+  #- DOMAIN,tracker.ptchdbits.co,DIRECT
+  #- DOMAIN,tracker.rainbowisland.co,DIRECT
+  #- DOMAIN,tracker.hhan.club,DIRECT
+  #- DOMAIN,hhanclub.top,DIRECT
+  #- DOMAIN,daisuki.monikadesign.uk,DIRECT
+  #- DOMAIN,tracker.keepfrds.com,DIRECT
+  #- DOMAIN,t.hdhome.org,DIRECT
+  #- DOMAIN,tracker.hdsky.me,DIRECT
+  #- DOMAIN,t.ubits.club,DIRECT
+  #- DOMAIN,tracker.totheglory.im,DIRECT
+  #- DOMAIN,tracker.open.cd,DIRECT
+  #- DOMAIN,tracker-public.tjupt.org,DIRECT
+  #- DOMAIN,tracker.leaves.red,DIRECT
+  #- DOMAIN,tracker2.leaves.red,DIRECT
+  #- DOMAIN,tracker3.leaves.red,DIRECT
+  #- DOMAIN,tracker.zhuque.in,DIRECT
+  #- DOMAIN-KEYWORD,pttime,DIRECT
+  #- DOMAIN-KEYWORD,hdtime,DIRECT
+  #- DOMAIN-KEYWORD,hdatmos,DIRECT
+  #- DOMAIN-KEYWORD,kamept,DIRECT
+  #- DOMAIN-KEYWORD,azusa,DIRECT
+  #- DOMAIN-KEYWORD,hd4fans,DIRECT
+  #- DOMAIN-KEYWORD,ourbits,DIRECT
+  #- DOMAIN-KEYWORD,ultrahd,DIRECT
+  #- DOMAIN-KEYWORD,htpt,DIRECT
+  #- DOMAIN-KEYWORD,zmpt,DIRECT
+  #- DOMAIN-KEYWORD,sunnypt,DIRECT
+  #- DOMAIN-KEYWORD,spaceship,DIRECT
+  #- DOMAIN,tracker01.ilovelemonhd.me,DIRECT
+  #CF优选段
+  - SRC-IP-CIDR,172.67.0.0/15,DIRECT
+  - SRC-IP-CIDR,162.158.0.0/15,DIRECT
+  - SRC-IP-CIDR,104.17.0.0/15,DIRECT
+  #emby服
+  - DOMAIN-SUFFIX,sda.moe,DIRECT
+
+ 

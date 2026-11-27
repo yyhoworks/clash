@@ -1,0 +1,38 @@
+payload:
+  # Dedicated tracker hosts. Keep this provider before PT-Domain.
+  - DOMAIN,tracker.pterclub.net
+  - DOMAIN,on.springsunday.net
+  - DOMAIN,t.audiences.me
+  - DOMAIN,tracker.cinefiles.info
+  - DOMAIN,tracker.m-team.io
+  - DOMAIN,daydream.dmhy.best
+  - DOMAIN,www.uhddolby.com
+  - DOMAIN,t.orcinusorca.org
+  - DOMAIN,tracker.ptchdbits.co
+  - DOMAIN,tracker.rainbowisland.co
+  - DOMAIN,tracker.hhan.club
+  - DOMAIN,daisuki.monikadesign.uk
+  - DOMAIN,tracker.keepfrds.com
+  - DOMAIN,t.hdhome.org
+  - DOMAIN,tracker.hdsky.me
+  - DOMAIN,t.ubits.club
+  - DOMAIN,tracker.totheglory.im
+  - DOMAIN,tracker.open.cd
+  - DOMAIN,tracker-public.tjupt.org
+  - DOMAIN,tracker.zhuque.in
+  - DOMAIN,sunnytk.top
+  # QingWa: qingwa.pro is an alternate announce host of the same site (same passkey)
+  - DOMAIN,tracker.qingwapt.org
+  - DOMAIN,tracker.qingwapt.com
+  - DOMAIN,tracker.qingwa.pro
+  # HHAN
+  - DOMAIN,tracker.hhanclub.net
+  - DOMAIN,tracker.hhan.club
+  # SunnyPT
+  - DOMAIN,tracker.sunnypt.top
+  # HDChina
+  - DOMAIN,tracker.hdwing.org
+  # These trackers share the website hostname, so direct takes priority.
+  - DOMAIN,ourbits.club
+  - DOMAIN,zmpt.cc
+  - DOMAIN,chdbits.xyz

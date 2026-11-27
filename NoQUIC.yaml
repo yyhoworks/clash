@@ -1,0 +1,8 @@
+payload:
+  # 拦截国外 QUIC (HTTP/3)，让客户端回落 TCP TLS。
+  # 原因：mihomo 无法解密 IETF QUIC 的 SNI；当目标是真实 IP（域名被
+  # dns.fake-ip-filter 排除）时拿不到域名，UDP/443 会绕过所有域名类规则，
+  # 直接掉进 MATCH。REJECT 后浏览器自动回落 TCP，sniffer 可读 SNI，域名分流恢复。
+  # 豁免国内：命中 China(域名) 或 China_IP(真实IP) 的 QUIC 不拦，避免误伤国内 App 的 H3。
+  # 注意：多端口只能用 / 或 - 范围；逗号是规则字段分隔符，会被静默截断。
+  - AND,((NETWORK,udp),(DST-PORT,443),(NOT,((OR,((RULE-SET,China),(RULE-SET,China_IP,no-resolve))))))

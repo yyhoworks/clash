@@ -1,0 +1,59 @@
+payload:
+  # PT site domains — aligned with browser bookmarks (PT站点 folder)
+  # HDSky
+  - DOMAIN-SUFFIX,hdsky.me
+  # OurBits
+  - DOMAIN-SUFFIX,ourbits.club
+  # SpringSunday (SSD)
+  - DOMAIN-SUFFIX,springsunday.net
+  # Audiences
+  - DOMAIN-SUFFIX,audiences.me
+  # HDDolby
+  - DOMAIN-SUFFIX,uhddolby.com
+  # CHDBits
+  - DOMAIN-SUFFIX,ptchdbits.co
+  # TTG
+  - DOMAIN-SUFFIX,totheglory.im
+  # KeepFrds
+  - DOMAIN-SUFFIX,keepfrds.com
+  # HDHome
+  - DOMAIN-SUFFIX,hdhome.org
+  # U2 / DMHY
+  - DOMAIN-SUFFIX,dmhy.org
+  # Azusa
+  - DOMAIN-SUFFIX,azusa.wiki
+  # HTPT
+  - DOMAIN-SUFFIX,htpt.cc
+  # UltraHD
+  - DOMAIN-SUFFIX,ultrahd.net
+  # OpenCD
+  - DOMAIN-SUFFIX,open.cd
+  # ZhuQue
+  - DOMAIN-SUFFIX,zhuque.in
+  # KamePT
+  - DOMAIN-SUFFIX,kamept.com
+  # MonikaDesign
+  - DOMAIN-SUFFIX,monikadesign.uk
+  # ZMPT
+  - DOMAIN-SUFFIX,zmpt.cc
+  # TJUPT
+  - DOMAIN-SUFFIX,tjupt.org
+  # PTTime
+  - DOMAIN-SUFFIX,pttime.org
+  # JpopSuki
+  - DOMAIN-SUFFIX,jpopsuki.eu
+  # UBits
+  - DOMAIN-SUFFIX,ubits.club
+  # M-Team
+  - DOMAIN-SUFFIX,m-team.cc
+  # SunnyPT
+  - DOMAIN-SUFFIX,sunnypt.top
+  # QingWa
+  - DOMAIN-SUFFIX,qingwapt.com
+  # PTerClub
+  - DOMAIN-SUFFIX,pterclub.net
+  # HHCLUB
+  - DOMAIN-SUFFIX,hhanclub.net
+  # HDChina
+  - DOMAIN-SUFFIX,hdwing.org
+  

@@ -1,0 +1,23 @@
+payload:
+  # === 1. Muse AI 核心与关联服务 ===
+  - DOMAIN-SUFFIX,muse.ai
+  - DOMAIN-SUFFIX,museai.com
+  - DOMAIN-SUFFIX,ecto1.ai
+
+  # === 2. Meta AI 底层接口、模型与沙盒生成内容 ===
+  - DOMAIN-SUFFIX,meta.ai
+  - DOMAIN-SUFFIX,llama.com
+  - DOMAIN-SUFFIX,metaaiusercontent.com
+
+  # === 3. Meta 账号鉴权与静态资源 CDN ===
+  - DOMAIN-SUFFIX,meta.com
+  - DOMAIN-SUFFIX,facebook.com
+  - DOMAIN-SUFFIX,fbcdn.net
+  - DOMAIN-SUFFIX,fbsbx.com
+
+  # === 4. Muse Code CLI 本地终端进程 ===
+  # 已停用：PROCESS-NAME 只能匹配发起连接的进程，服务端网关（Match Router / YoPilot）
+  # 看不到客户端进程，故这两条在任何服务端部署下都不会命中。
+  # 仅当 Mihomo 跑在终端本机时才需要，取消下面两行注释即可恢复。
+  # - PROCESS-NAME,muse
+  # - PROCESS-NAME,muse.exe

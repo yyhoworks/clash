@@ -1,0 +1,9 @@
+payload:
+  # Custom-Proxy — formerly ConfigFlow「自定义规则（代理）」
+  - DOMAIN-SUFFIX,hdhive.com
+  - DOMAIN-SUFFIX,847977.xyz
+  - DOMAIN-SUFFIX,skyeysnow.com
+  # Emotn
+  - DOMAIN-SUFFIX,emotn.com
+  - DOMAIN-SUFFIX,emotn.io
+  - DOMAIN-SUFFIX,emotn.app

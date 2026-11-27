@@ -1,0 +1,8 @@
+payload:
+  # Custom-Direct — formerly ConfigFlow「自定义规则（直连）」
+  - DOMAIN-KEYWORD,spaceship
+  - DOMAIN-KEYWORD,test-ipv6
+  - DOMAIN-KEYWORD,clubsim
+  - DOMAIN-SUFFIX,angry.im
+  - DOMAIN-SUFFIX,hf-mirror.com   
+  - DOMAIN-SUFFIX,52share.fun  
